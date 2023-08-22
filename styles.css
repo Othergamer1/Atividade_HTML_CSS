@@ -1,0 +1,27 @@
+img {
+    max-height: 200px;
+    min-height: 100px;
+    max-width: 400px;
+    min-width: 250px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+a {
+    color: green;
+    text-decoration: none !important;
+    border-bottom: 1px solid green;
+  }
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: #343;
+}
