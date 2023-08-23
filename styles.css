@@ -1,8 +1,23 @@
-img {
+div {
     max-height: 200px;
     min-height: 100px;
     max-width: 400px;
     min-width: 250px;
+
+    border: 2px solid green;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    margin: 20px auto;
+    background-color: rgb(10, 170, 182);
+    border-radius: 20px;
+}
+
+
+
+img {
+    height: 30px;
+    width: 30px;
 }
 
 h2 {
@@ -18,10 +33,14 @@ p {
 
 a {
     color: green;
-    text-decoration: none !important;
-    border-bottom: 1px solid green;
+    text-decoration: none;
   }
 
 p, h1, h2, h3, h4, h5, h6 {
     color: #343;
+}
+
+
+body {
+    font-family: Roboto, sans-serif;
 }
